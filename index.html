@@ -5,12 +5,135 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>online-zoo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header"></header>
-    <main></main>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav__menu">
+                    <div class="logo" id="logo">
+                        <h1>PetStory online</h1>
+                        <img class="logo__svg" src="icons/bamboo.svg" alt="bamboo">
+                    </div>
+                    <ul class="nav__list">
+                            <li class="nav-item"><a class="nav-about" href="#">About</a></li>
+                            <li class="nav-item"><a href="#">Map</a></li>
+                            <li class="nav-item"><a href="#">Zoos</a></li>
+                            <li class="nav-item"><a href="donate.html">Donate</a></li>
+                            <li class="nav-item"><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="credits"><a href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks">Designed by &copy</a></div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="bg__wrapper">
+            <h2 class="bg__title">watch your <span class="bg__title-span">favorite</span> animal online</h2>                
+            <div class="bg__circle"></div>
+            <button class="button bg__button">watch online</button>
+        </div>
+    <section class="backstage">
+        <img src="images/flower_foto1.png" alt="flowers" class="backstage-svg">
+        <div class="container backstage-container">
+            <div class="backstage-img">
+                <img class="backstage-image" src="images/bamboo-cap.jpg" alt="bamboo cap">
+            </div>
+            <div class="backstage-content">
+                <h2 class="backstage-title">
+                    The Backstage of the Wilderness World.
+                </h2>
+                <p class="backstage-text">The site was founded on the basis of a volunteer movement to protect and care for animals.</p>
+                <p class="backstage-subtitle">How it works </p>
+                <p class="backstage-text">The main goal is to help the animals, as well as the nature reserves and zoos where they are kept. We are currently working on video projects targeting pandas in China, eagles on an island near Los Angeles, alligators in Florida and gorillas in the Congo. These have a total of more than 1,500 mammals and reptiles.</p>
+            </div>
+        </div>
+    </section>
+    <section class="pets">
+        <div class="pets__arrow-left">
+            <img src="icons/arrow-left.svg" alt="arrow">
+        </div>
+        <div class="container pets__container">
+            <div class="pets__wrapper">
+                <div class="pets__card">
+                    <div class="pets__card-img">
+                        <img class="pets__card-image" src="images/panda.png" alt="panda">
+                    </div>
+                    <h3 class="pets__card-name">
+                        giant pandas
+                    </h3>
+                    <p class="pets__card-description">Native to Southwest China</p>
+                    <img class="banana-bamboo-svg" src="icons/banana-bamboo_icon.svg" alt="banana-bamboo">
+                </div>
+                <div class="pets__card">
+                    <div class="pets__card-img">
+                        <img class="pets__card-image" src="images/eagle.png" alt="eagle">
+                    </div>
+                    <h3 class="pets__card-name">
+                        eagles
+                    </h3>
+                    <p class="pets__card-description">Native to South America</p>
+                    <img class="meat-fish-svg" src="icons/meet-fish_icon.svg" alt="meat-fish">
+                </div>
+                <div class="pets__card">
+                    <div class="pets__card-img">
+                        <img class="pets__card-image" src="images/gorilla.png" alt="gorilla">
+                    </div>
+                    <h3 class="pets__card-name">
+                        gorillas
+                    </h3>
+                    <p class="pets__card-description">Native to Congo</p>
+                    <img class="banana-bamboo-svg" src="icons/banana-bamboo_icon.svg" alt="banana-bamboo">
+                </div>
+                <div class="pets__card">
+                    <div class="pets__card-img">
+                        <img class="pets__card-image" src="images/sloth.png" alt="sloth">
+                    </div>
+                    <h3 class="pets__card-name">
+                        two-toed sloth
+                    </h3>
+                    <p class="pets__card-description">Mesoamerica, South America</p>
+                    <img class="banana-bamboo-svg" src="icons/banana-bamboo_icon.svg" alt="banana-bamboo">
+                </div>
+                <div class="pets__card">
+                    <div class="pets__card-img">
+                        <img class="pets__card-image" src="images/cheetah.png" alt="cheetahs">
+                    </div>
+                    <h3 class="pets__card-name">
+                        cheetahs
+                    </h3>
+                    <p class="pets__card-description">Native to Africa</p>
+                    <img class="meat-fish-svg" src="icons/meet-fish_icon.svg" alt="meat-fish">
+                </div>
+                <div class="pets__card">                 
+                    <div class="pets__card-img">
+                        <img class="pets__card-image" src="images/penguin.png" alt="penguin">
+                    </div>
+                    <h3 class="pets__card-name">
+                        penguins
+                    </h3>
+                    <p class="pets__card-description">Native to Antarctica</p>
+                    <img class="meat-fish-svg" src="icons/meet-fish_icon.svg" alt="meat-fish">
+                </div>
+                
+            </div>
+        </div>
+        <img class="pets__svg-palm" src="images/palm_foto.png" alt="palm" class="pets__palm">
+        <img class="pets__svg-strelitzia" src="images/strelitzia 1.png" alt="strelitzia" class="pets__strelitzia">
+        <div class="pets__arrow-right">
+            <img src="icons/arrow-right.svg" alt="arrow">
+        </div>
+        <button class="button pets__button">choose your favorite</button>
+    </section>
+    <section class="feed">
+        
+    </section>
+    <section class="testimonials"></section>
+
+    </main>
     <footer class="footer"></footer>
 </body>
 </html>
